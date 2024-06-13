@@ -1,0 +1,44 @@
+.post-card {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+  }
+  
+  .post-title {
+    color: #2c3e50;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #ddd; /* Ramka pod tytułem */
+    padding-bottom: 10px;
+  }
+  
+  .post-content {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .comment-card {
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .comment-content {
+    color: #34495e;
+    text-align: left;
+  }
+  
+  .comments-container {
+    margin-top: 10px;
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,7 @@
+com\MVC\model\Post.class
+com\MVC\repository\PostRepository.class
+com\MVC\controller\PostController.class
+com\MVC\controller\CommentController.class
+com\MVC\model\Comment.class
+com\MVC\MvcApplication.class
+com\MVC\repository\CommentRepository.class

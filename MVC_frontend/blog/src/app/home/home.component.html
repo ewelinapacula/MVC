@@ -1,0 +1,16 @@
+<!-- List of posts -->
+<div *ngIf="posts.length; else noPosts">
+  <div *ngFor="let post of posts">
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.content }}</p>
+    <button (click)="deletePost(post.id)">Usuń</button>
+  </div>
+</div>
+
+<!-- Template for no posts condition -->
+<ng-template #noPosts>
+  <p>Nie ma postów stwórz nowy.</p>
+</ng-template>
+
+<!-- Button to navigate to create post page -->
+<button routerLink="/post">Utwórz nowy post.</button>

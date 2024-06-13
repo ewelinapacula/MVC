@@ -1,0 +1,16 @@
+<mat-card>
+  <mat-card-title class="form-title">Create a New Post</mat-card-title>
+  <mat-card-content>
+    <form (ngSubmit)="onSubmit(title.value, content.value)">
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>Title</mat-label>
+        <input matInput #title type="text" placeholder="Enter post title" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="full-width">
+        <mat-label>Content</mat-label>
+        <textarea matInput #content rows="4" placeholder="Enter post content" required></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Create Post</button>
+    </form>
+  </mat-card-content>
+</mat-card>

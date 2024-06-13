@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f2f5; /* Kolor tła strony */
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-title {
+    color: #ffffff; /* Kolor tytułu bloga */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .post-title {
+    color: #8ff47f; /* Kolor tytułu posta */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .post-content {
+    color: #34495e; /* Kolor treści posta */
+  }
+  
+  mat-card {
+    margin: 20px 0;
+  }
+  
+  mat-card-title, mat-card-content {
+    text-align: center;
+  }
+  
